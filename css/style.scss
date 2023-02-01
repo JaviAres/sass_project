@@ -1,0 +1,39 @@
+
+$imagen_ancho:344px;
+$imagen_alto:500px;
+$color_bordes: white;
+$color_fondo:black;
+$color_texto:white;
+$tipo_borde:solid;
+$tipo_letra:'Courier New', Courier, monospace;
+$delineado_titulo:underline red;
+
+%texto{
+    color: $color_texto;
+    font-family:$tipo_letra;
+}
+
+img{
+    width: $imagen_ancho;
+    height: $imagen_alto;
+    
+}
+
+
+h1,p{
+    @extend %texto;
+}
+
+h5{
+    @extend %texto;
+     text-decoration: $delineado_titulo;
+}
+
+main{
+background: $color_fondo;
+}
+
+.col{
+    border-style: solid;
+    border-color: $color_bordes,
+}

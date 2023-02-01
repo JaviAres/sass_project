@@ -1,0 +1,19 @@
+h1, p, h5 {
+  color: white;
+  font-family: "Courier New", Courier, monospace; }
+
+img {
+  width: 344px;
+  height: 500px; }
+
+h5 {
+  text-decoration: underline red; }
+
+main {
+  background: black; }
+
+.col {
+  border-style: solid;
+  border-color: white; }
+
+/*# sourceMappingURL=style.css.map */
