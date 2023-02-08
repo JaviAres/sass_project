@@ -1,6 +1,4 @@
-
-$imagen_ancho:344px;
-$imagen_alto:500px;
+@import "mixins.scss";
 $color_bordes: white;
 $color_fondo:black;
 $color_texto:white;
@@ -14,9 +12,7 @@ $delineado_titulo:underline red;
 }
 
 img{
-    width: $imagen_ancho;
-    height: $imagen_alto;
-    
+    @include imagenes_ejemplo;
 }
 
 
