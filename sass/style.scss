@@ -7,7 +7,7 @@ $tipo_borde:solid;
 $tipo_letra:'Courier New', Courier, monospace;
 $delineado_titulo:underline red;
 $letra_navbar:xx-large;
-
+/* Una clase abstracta de la que heredaran el resto de texto para que tengan el mismo color y la misma tipografia*/
 %texto{
     color: $color_texto;
     font-family:$tipo_letra;
@@ -15,6 +15,7 @@ $letra_navbar:xx-large;
  #UpperBrand{
     font-size: $letra_navbar;
  }
+ /* include del mixin para las imagenes de la derecha*/
 img{
     @include imagenes-ejemplo;
 }
@@ -38,6 +39,7 @@ background: $color_fondo;
     border-color: $color_bordes,
 }
 
+/* una lista anidada con un include de otro mixin*/
 ul{
     @include tamaño-lista;
 color: $color_texto;
@@ -45,6 +47,8 @@ color: $color_texto;
         color: $color_texto_segundo;
     }
 }
+
+/* una funcion para dividi y un loop for en el que se usa esta misma funcion, realizando un calculo de division*/
 @function dividir($tamaño_base,$division){
     @return($tamaño_base/$division);
 };

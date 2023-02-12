@@ -1,3 +1,4 @@
+/* Una clase abstracta de la que heredaran el resto de texto para que tengan el mismo color y la misma tipografia*/
 /* line 11, ../sass/sass_project/sass/style.scss */
 h1, p, h5 {
   color: white;
@@ -9,29 +10,31 @@ h1, p, h5 {
   font-size: xx-large;
 }
 
-/* line 18, ../sass/sass_project/sass/style.scss */
+/* include del mixin para las imagenes de la derecha*/
+/* line 19, ../sass/sass_project/sass/style.scss */
 img {
   width: 300px;
   height: 500px;
 }
 
-/* line 27, ../sass/sass_project/sass/style.scss */
+/* line 28, ../sass/sass_project/sass/style.scss */
 h5 {
   text-decoration: underline red;
 }
 
-/* line 32, ../sass/sass_project/sass/style.scss */
+/* line 33, ../sass/sass_project/sass/style.scss */
 main {
   background: black;
 }
 
-/* line 36, ../sass/sass_project/sass/style.scss */
+/* line 37, ../sass/sass_project/sass/style.scss */
 .col {
   border-style: solid;
   border-color: white;
 }
 
-/* line 41, ../sass/sass_project/sass/style.scss */
+/* una lista anidada con un include de otro mixin*/
+/* line 43, ../sass/sass_project/sass/style.scss */
 ul {
   font-size: xx-large;
   color: white;
@@ -42,36 +45,37 @@ ul ul {
   font-size: x-large;
 }
 
-/* line 44, ../sass/sass_project/sass/style.scss */
+/* line 46, ../sass/sass_project/sass/style.scss */
 ul ul {
   color: red;
 }
 
-/* line 53, ../sass/sass_project/sass/style.scss */
+/* una funcion para dividi y un loop for en el que se usa esta misma funcion, realizando un calculo de division*/
+/* line 57, ../sass/sass_project/sass/style.scss */
 #imagen-1 {
   width: 20%;
   height: 20%;
 }
 
-/* line 53, ../sass/sass_project/sass/style.scss */
+/* line 57, ../sass/sass_project/sass/style.scss */
 #imagen-2 {
   width: 10%;
   height: 10%;
 }
 
-/* line 53, ../sass/sass_project/sass/style.scss */
+/* line 57, ../sass/sass_project/sass/style.scss */
 #imagen-3 {
   width: 6.66667%;
   height: 6.66667%;
 }
 
-/* line 53, ../sass/sass_project/sass/style.scss */
+/* line 57, ../sass/sass_project/sass/style.scss */
 #imagen-4 {
   width: 5%;
   height: 5%;
 }
 
-/* line 53, ../sass/sass_project/sass/style.scss */
+/* line 57, ../sass/sass_project/sass/style.scss */
 #imagen-5 {
   width: 4%;
   height: 4%;
