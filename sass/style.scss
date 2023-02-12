@@ -55,10 +55,13 @@ color: $color_texto;
         color: $color_texto_segundo;
     }
 }
+@function dividir($tamaño_base,$division){
+    @return($tamaño_base/$division);
+};
 
 @for $i from 1 through 5 {
     #imagen-#{$i} {
-        width: (20% / $i);
-        height: (20%/$i);
+        width: dividir(20%,$i);
+        height: dividir(20%,$i);
     }
 }
