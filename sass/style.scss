@@ -6,6 +6,7 @@ $color_texto_segundo:red;
 $tipo_borde:solid;
 $tipo_letra:'Courier New', Courier, monospace;
 $delineado_titulo:underline red;
+$letra_navbar:xx-large;
 @mixin imagenes-ejemplo{
     width: 300px;
     height: 500px;
@@ -21,7 +22,9 @@ $delineado_titulo:underline red;
     color: $color_texto;
     font-family:$tipo_letra;
 }
-
+ #UpperBrand{
+    font-size: $letra_navbar;
+ }
 img{
     @include imagenes-ejemplo;
 }
