@@ -1,0 +1,11 @@
+@mixin imagenes-ejemplo{
+    width: 300px;
+    height: 500px;
+}
+
+@mixin tamaño-lista{
+    font-size: xx-large;
+    ul{
+        font-size: x-large;
+    }
+}

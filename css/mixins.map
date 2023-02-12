@@ -5,7 +5,7 @@
 		"../sass/mixins.scss"
 	],
 	"sourcesContent": [
-		"@mixin imagenes_ejemplo {\r\n$imagen_ancho:344px;\r\n$imagen_alto:500px;\r\n}\r\n\r\n@mixin tamaño_lista{\r\n    $tamaño_letra_lista:x-large;\r\n}"
+		"@mixin imagenes-ejemplo{\r\n    width: 300px;\r\n    height: 500px;\r\n}\r\n\r\n@mixin tamaño-lista{\r\n    font-size: xx-large;\r\n    ul{\r\n        font-size: x-large;\r\n    }\r\n}"
 	],
 	"names": [],
 	"mappings": ""
