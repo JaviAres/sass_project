@@ -1,18 +1,29 @@
-@import "mixins.scss";
+
 $color_bordes: white;
 $color_fondo:black;
 $color_texto:white;
+$color_texto_segundo:red;
 $tipo_borde:solid;
 $tipo_letra:'Courier New', Courier, monospace;
 $delineado_titulo:underline red;
+@mixin imagenes-ejemplo{
+    width: 300px;
+    height: 500px;
+}
 
+@mixin tamaño-lista{
+    font-size: xx-large;
+    ul{
+        font-size: x-large;
+    }
+}
 %texto{
     color: $color_texto;
     font-family:$tipo_letra;
 }
 
 img{
-    @include imagenes_ejemplo;
+    @include imagenes-ejemplo;
 }
 
 
@@ -32,4 +43,19 @@ background: $color_fondo;
 .col{
     border-style: solid;
     border-color: $color_bordes,
+}
+
+ul{
+    @include tamaño-lista;
+color: $color_texto;
+    ul{
+        color: $color_texto_segundo;
+    }
+}
+
+@for $i from 1 through 5 {
+    #imagen-#{$i} {
+        width: (20% / $i);
+        height: (20%/$i);
+    }
 }

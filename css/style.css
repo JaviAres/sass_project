@@ -1,19 +1,75 @@
+/* line 20, ../sass/sass_project/sass/style.scss */
 h1, p, h5 {
   color: white;
-  font-family: "Courier New", Courier, monospace; }
+  font-family: "Courier New", Courier, monospace;
+}
 
+/* line 25, ../sass/sass_project/sass/style.scss */
 img {
-  width: 344px;
-  height: 500px; }
+  width: 300px;
+  height: 500px;
+}
 
+/* line 34, ../sass/sass_project/sass/style.scss */
 h5 {
-  text-decoration: underline red; }
+  text-decoration: underline red;
+}
 
+/* line 39, ../sass/sass_project/sass/style.scss */
 main {
-  background: black; }
+  background: black;
+}
 
+/* line 43, ../sass/sass_project/sass/style.scss */
 .col {
   border-style: solid;
-  border-color: white; }
+  border-color: white;
+}
+
+/* line 48, ../sass/sass_project/sass/style.scss */
+ul {
+  font-size: xx-large;
+  color: white;
+}
+
+/* line 16, ../sass/sass_project/sass/style.scss */
+ul ul {
+  font-size: x-large;
+}
+
+/* line 51, ../sass/sass_project/sass/style.scss */
+ul ul {
+  color: red;
+}
+
+/* line 57, ../sass/sass_project/sass/style.scss */
+#imagen-1 {
+  width: 20%;
+  height: 20%;
+}
+
+/* line 57, ../sass/sass_project/sass/style.scss */
+#imagen-2 {
+  width: 10%;
+  height: 10%;
+}
+
+/* line 57, ../sass/sass_project/sass/style.scss */
+#imagen-3 {
+  width: 6.66667%;
+  height: 6.66667%;
+}
+
+/* line 57, ../sass/sass_project/sass/style.scss */
+#imagen-4 {
+  width: 5%;
+  height: 5%;
+}
+
+/* line 57, ../sass/sass_project/sass/style.scss */
+#imagen-5 {
+  width: 4%;
+  height: 4%;
+}
 
 /*# sourceMappingURL=style.css.map */
